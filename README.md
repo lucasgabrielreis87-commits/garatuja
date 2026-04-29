@@ -56,9 +56,14 @@ getters: um metodo que volta um valor, pode ser usado para criar um atributo com
 setters: serve para validar atributos na hora em que são definidos, por exemplo se voce quer dar um valor lara rodas do carro, não pode ser -1 ou 100000000000, o set vai validar isso
 
 ## constructor
-## herança
-## polimorfismo
 
+É um método que inicilaiza atributos na criação do objeto
+
+## herança
+dentro de uma classe pode haver outras classes, que podem herdar os edlementos da classe pai, exemplo, dentro da classe carro existe a classe bmw, que recee de herança os atributos de roda, cor, velociade maxima etc.
+
+## polimorfismo
+ uma classe filha pode conter o mesmo método que a classe pai mas com um funcionamento diferente, por exemplo se a classe carro tem o metod de imposto que por padrao é 1500, a classe filha carro esportivo pode ter o mesmo metodo mas com um valor 1500,7 
 
 
 
