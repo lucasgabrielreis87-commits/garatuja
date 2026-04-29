@@ -1,5 +1,5 @@
 # garatujas - Lucas Gabriel dos Reis da silva
-##html 
+## html 
 html (hipertext markup language) não é uma linguagem de programação, mas sim de marcação serve para criar a estrutura de páginas web, sem interações complexas ou com a parte estética. Serve para fazer títulos, parágrafos, listas, tabelas. Mas não é capaz por si só de mudar a cor, o tamanho, direção, fonte etc. dos elementos ou de fazer interações.
 
 ## css 
@@ -23,7 +23,7 @@ typescript: uma versão mais fortemente tipada de javascript, mais coesa, menos 
 
 resumo = java ≠ javascript              ts = js fortemente tipado
 
-##POO
+## POO
 
 poo => programação orientada a objetos
 ao inves do código ser feito de forma estrutural, tudo em um único código continuo, é feito usando o conceito de classe e oobjetos, dividindo o código com uma classe. É bom para dar mais organização ao código.
