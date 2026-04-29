@@ -5,6 +5,22 @@ html (hipertext markup language) não é uma linguagem de programação, mas sim
 ## css 
 css(cascading style sheet) esse sim serve para fazer a parte  estética da página que o html não consegue. Ele ppode mudar a cor do fundo, a cor das letras, a disposição dos elementos, o tamanho da fonte, o sombreamento de elementos etc.
 
-## estruturada x poo
-linguagem estruturada é quando o código é feito todo 
+## javascript
+javascript é responsável pela interação com o usuário, da o sopro da vida para o código. Pode remover, adicionar e editar elementos html e estilos css, guardar as informações em um banco de dados etc.
+
+## resumo html css e js
+html => estrutura básica, corpo da página
+css => estética
+javascript => interatividade
+
+## java x javascript x typescript 
+java: linguagem muito ligada a orientação a objetos, compliada, fortemente tipada efocada em backend
+
+javascipt:  tipada dinamicamente, interpretada, usada em páginas web
+
+typescript: uma versão mais fortemente tipada de javascript, mais coesa, menos erros já que é necessário identificar o tipo
+
+resumo = java ≠ javascript ts = js fortemente tipado
+
+####POO
 
