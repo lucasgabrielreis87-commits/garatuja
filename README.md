@@ -65,6 +65,16 @@ dentro de uma classe pode haver outras classes, que podem herdar os edlementos d
 ## polimorfismo
  uma classe filha pode conter o mesmo método que a classe pai mas com um funcionamento diferente, por exemplo se a classe carro tem o metod de imposto que por padrao é 1500, a classe filha carro esportivo pode ter o mesmo metodo mas com um valor 1500,7 
 
+ ## perguntas sobre o texto
+ 
+ Sempre que uso private eu sou obrigado a criar getters e setters?
+ Qual a vantagem da versão com get e set em vez de métodos normais?
+ Por que transformar atributos em private melhora o código?
+ Isso é segurança real ou só organização do código?
+ O texto diz que sem construtor pode dar problema — mas quando isso realmente acontece?
+ Posso criar um objeto sem passar parâmetros?
+ O construtor sempre precisa usar this?
+
 
 
 
