@@ -21,8 +21,11 @@ javascipt:  tipada dinamicamente, interpretada, usada em páginas web
 
 typescript: uma versão mais fortemente tipada de javascript, mais coesa, menos erros já que é necessário identificar o tipo
 
-| linguagem | interp X comp | tipada | uso
-| --------- | ------------- | ------ | ---
+| linguagem  | interp X comp |          tipada        |   uso  |
+| ---------  | ------------- | ---------------------- | ------ |
+|   java     |  compilada    | altamente tipada       | bakend |
+| javascript |  interpretada | tipada dinamicamente   | web    |
+| typescript |  interpretada | altamente tipada       | web    |
 
 resumo = java ≠ javascript              ts = js fortemente tipado
 
