@@ -117,12 +117,12 @@ dentro de uma classe pode haver outras classes, que podem herdar os edlementos d
 ```javascript
 class Veiculo {  // classe de veiculos
   constructor(cor, numero, valor) { // constructor para inicializar os atributos
-    this.setCor(cor);
+    this.setCor(cor); // this usado para referenciar esse objeto especifico
     this.setNumero(numero);
     this.setValor(valor);
   }
 
-  // ===== GETTERS =====
+  // GETTERS limita o acesso ao atributo
   getCor() {
     return this._cor;
   }
@@ -135,8 +135,8 @@ class Veiculo {  // classe de veiculos
     return this._valor;
   }
 
-  // ===== SETTERS (com validação) =====
-  setCor(cor) { // valida se o atributo pode ter o valor digitado
+  // SETTERS valida se o atributo pode ter o valor digitado
+  setCor(cor) { 
     if (typeof cor !== "string" || cor.trim() === "") {
       console.log("Cor inválida");
       return;
@@ -170,7 +170,7 @@ class Veiculo {  // classe de veiculos
 }
 
 // subclasse
-class CarroEsportivo extends Veiculo {
+class CarroEsportivo extends Veiculo { // extende os atributos e metodos da classe pai
   constructor(cor, numero, valor, potencia) {
     super(cor, numero, valor); //  IMPORTANTE
     this.setPotencia(potencia);
