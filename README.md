@@ -214,6 +214,8 @@ console.log("Imposto:", carro1.calcularImposto());
  6. Posso criar um objeto sem passar parâmetros?
  7. O construtor sempre precisa usar this?
 
+![Logo](documentos/image.png)
+
 
 
 
