@@ -33,6 +33,7 @@ resumo = java ≠ javascript              ts = js fortemente tipado
 
 poo => programação orientada a objetos
 ao inves do código ser feito de forma estrutural, tudo em um único código continuo, é feito usando o conceito de classe e oobjetos, dividindo o código com uma classe. É bom para dar mais organização ao código.
+
 código estruturado: 
 ```javascript
 const carro = 12345
@@ -67,6 +68,24 @@ objetos: esses sim são as entidades delimitadas pela classe, seguindo o exemplo
 atributos são variáveis comuns, porém ficam dentro de uma classe. basicamente são as caracteristicas que fazem o objeto ser da classe. No mesmo exemplo do carro, o que faz um carro ser um carro? ele tem que ter rodas, marca, volante etc. essas características são os atributos
 
 métodos: são funções normais mas estão dentro de uma classe, geralmente definido por verbos cabiveis a class. O carro pode ligar, andar, acender farois. isso são funções.
+
+Exemplo: 
+```javascript
+class Carro { // classe Carro
+  constructor(cor, numero) {
+    this.cor = cor; \\ this é usado para referenciar esse carro especifico de cor vermelha
+    this.numero = numero; \\ atributo
+  }
+
+  falarCor() { \\ metodo para falar a cor do carro
+    console.log("A cor do carro é " + this.cor);
+  }
+}
+
+
+const carro1 = new Carro("vermelho", 123); \\ objeto
+carro1.falarCor(); // A cor do carro é vermelho
+```
 
 obs: this é usado para referenciar o objeto atual
 
