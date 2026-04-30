@@ -73,17 +73,17 @@ Exemplo:
 ```javascript
 class Carro { // classe Carro
   constructor(cor, numero) {
-    this.cor = cor; \\ this é usado para referenciar esse carro especifico de cor vermelha
-    this.numero = numero; \\ atributo
+    this.cor = cor; // this é usado para referenciar esse carro especifico de cor vermelha
+    this.numero = numero; // atributo
   }
 
-  falarCor() { \\ metodo para falar a cor do carro
+  falarCor() { // metodo para falar a cor do carro
     console.log("A cor do carro é " + this.cor);
   }
 }
 
 
-const carro1 = new Carro("vermelho", 123); \\ objeto
+const carro1 = new Carro("vermelho", 123); // objeto
 carro1.falarCor(); // A cor do carro é vermelho
 ```
 
@@ -113,6 +113,95 @@ dentro de uma classe pode haver outras classes, que podem herdar os edlementos d
 ## polimorfismo
  uma classe filha pode conter o mesmo método que a classe pai mas com um funcionamento diferente, por exemplo se a classe carro tem o metod de imposto que por padrao é 1500, a classe filha carro esportivo pode ter o mesmo metodo mas com um valor 1500,7 
 
+## Exemplo completo
+```javascript
+class Veiculo {  // classe de veiculos
+  constructor(cor, numero, valor) { // constructor para inicializar os atributos
+    this.setCor(cor);
+    this.setNumero(numero);
+    this.setValor(valor);
+  }
+
+  // ===== GETTERS =====
+  getCor() {
+    return this._cor;
+  }
+
+  getNumero() {
+    return this._numero;
+  }
+
+  getValor() {
+    return this._valor;
+  }
+
+  // ===== SETTERS (com validação) =====
+  setCor(cor) { // valida se o atributo pode ter o valor digitado
+    if (typeof cor !== "string" || cor.trim() === "") {
+      console.log("Cor inválida");
+      return;
+    }
+    this._cor = cor;
+  }
+
+  setNumero(numero) {
+    if (typeof numero !== "number" || numero <= 0) {
+      console.log("Número inválido");
+      return;
+    }
+    this._numero = numero;
+  }
+
+  setValor(valor) {
+    if (typeof valor !== "number" || valor <= 0) {
+      console.log("Valor inválido");
+      return;
+    }
+    this._valor = valor;
+  }
+
+  falarCor() { // metodo para falar a cor do carro
+    console.log(`A cor do veículo é ${this._cor}`);
+  }
+
+  calcularImposto() { // metodo de imposto que será sobescrito com polimorfismo
+    return this._valor * 0.1;
+  }
+}
+
+// subclasse
+class CarroEsportivo extends Veiculo {
+  constructor(cor, numero, valor, potencia) {
+    super(cor, numero, valor); //  IMPORTANTE
+    this.setPotencia(potencia);
+  }
+
+  getPotencia() {
+    return this._potencia;
+  }
+
+  setPotencia(potencia) {
+    if (typeof potencia !== "number" || potencia <= 0) {
+      console.log("Potência inválida");
+      return;
+    }
+    this._potencia = potencia;
+  }
+
+  calcularImposto() { // sobescreve o metodo anterior de imposto
+    return this._valor * 0.2;
+  }
+}
+
+
+
+//  Teste
+const carro1 = new CarroEsportivo("azul", 123, 100000, 500); // objeto
+
+carro1.falarCor();
+console.log("Imposto:", carro1.calcularImposto());
+
+```
  ## perguntas sobre o texto
  
  1. Sempre que uso private eu sou obrigado a criar getters e setters?
