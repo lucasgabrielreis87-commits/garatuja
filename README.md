@@ -1,4 +1,4 @@
-# garatujas - Lucas Gabriel dos Reis da silva
+# Garatujas - Lucas Gabriel dos Reis da silva
 ## html 
 html *(hipertext markup language)* não é uma linguagem de programação, mas sim de marcação serve para criar a estrutura de páginas web, sem interações complexas ou com a parte estética. Serve para fazer títulos, parágrafos, listas, tabelas. Mas não é capaz por si só de mudar a cor, o tamanho, direção, fonte etc. dos elementos ou de fazer interações.
 
@@ -8,7 +8,7 @@ css *(cascading style sheet)* esse sim serve para fazer a parte  estética da p�
 ## javascript
 javascript é responsável pela interação com o usuário, da o sopro da vida para o código. Pode remover, adicionar e editar elementos html e estilos css, guardar as informações em um banco de dados, fazer animações etc.
 
-### resumo html css e js
+### Resumo html css e js
 - **html**: estrutura básica, corpo da página
 - **css**: estética
 - **javascript**: interatividade
@@ -60,12 +60,12 @@ const carro1 = new Carro("vermelho", 123);
 carro1.falarCor(); // A cor do carro é vermelho
 ```
 
-## classes e objetos
+## Classes e objetos
 **classes**: são delimitações de coisas com as mesmas caracterísitcas, não é a coisa, mas sim a linha de fala o que é aquele objeto, por exemplo se ouver a classe carros, a classse não vai ser um carro, mas sim o conjunto de ideias que falam o que é um carro. 
 
 **objetos**: esses sim são as entidades delimitadas pela classe, seguindo o exemplo anterior o carro numero 2222 é um objeto, é um carro específico que pertence a classe carro
 
-## atributos e metodos
+## Atributos e metodos
 
 **atributos**: são variáveis comuns, porém ficam dentro de uma classe. basicamente são as caracteristicas que fazem o objeto ser da classe. No mesmo exemplo do carro, o que faz um carro ser um carro? ele tem que ter rodas, marca, volante etc. essas características são os atributos
 
@@ -91,7 +91,7 @@ carro1.falarCor(); // A cor do carro é vermelho
 
 **obs**: this é usado para referenciar o objeto atual
 
-## encapsulamento
+## Encapsulamento
 
 **private**: quando um atributo é private, ele só pode ser acessado dentro da classe, isso serve para proteger o dado de ser alterado de forma que possa comprometer o funcionamento do código.
 
@@ -99,7 +99,7 @@ carro1.falarCor(); // A cor do carro é vermelho
 
 **protected**: o atributo só pode ser acessado na classe e nas suas sub-classes
 
-## getters e setters
+## Getters e setters
 
 **getters**: um metodo que volta um valor, pode ser usado para criar um atributo como por exemplo, um get para calcular a idade com base no ano de nascimento. Muito usado para o código fora da classe poder usar atributos privados de forma controlada. sintaxe atual => get
 
@@ -109,10 +109,10 @@ carro1.falarCor(); // A cor do carro é vermelho
 
 É um método que inicilaiza atributos na criação do objeto
 
-## herança
+## Herança
 dentro de uma classe pode haver outras classes, que podem herdar os elementos da classe pai. Exemplo: dentro da classe carro existe a classe carro usado, que recee de herança os atributos de roda, cor, velociade maxima etc.
 
-## polimorfismo
+## Polimorfismo
  uma classe filha pode conter o mesmo método que a classe pai mas com um funcionamento diferente, por exemplo se a classe carro tem o metodo de imposto que por padrao é 1500, a classe filha carro esportivo pode ter o mesmo metodo mas com um valor 1500,7 
 
 ## Exemplo completo
@@ -204,7 +204,7 @@ carro1.falarCor();
 console.log("Imposto:", carro1.calcularImposto());
 
 ```
- ## perguntas sobre o texto
+ ## Perguntas sobre o texto
  
  1. Sempre que uso private eu sou obrigado a criar getters e setters?
  2. Qual a vantagem da versão com get e set em vez de métodos normais?
