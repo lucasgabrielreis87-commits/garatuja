@@ -1,6 +1,10 @@
 # garatujas - Lucas Gabriel dos Reis da silva
 ## html 
 html (hipertext markup language) não é uma linguagem de programação, mas sim de marcação serve para criar a estrutura de páginas web, sem interações complexas ou com a parte estética. Serve para fazer títulos, parágrafos, listas, tabelas. Mas não é capaz por si só de mudar a cor, o tamanho, direção, fonte etc. dos elementos ou de fazer interações.
+<h1> titulo </h1>
+<h2> titulo menor </h2>
+<p> paragrafo </p>
+< 
 
 ## css 
 css(cascading style sheet) esse sim serve para fazer a parte  estética da página que o html não consegue. Ele ppode mudar a cor do fundo, a cor das letras, a disposição dos elementos, o tamanho da fonte, o sombreamento de elementos etc.
