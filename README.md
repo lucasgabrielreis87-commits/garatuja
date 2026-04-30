@@ -31,7 +31,13 @@ resumo = java ≠ javascript              ts = js fortemente tipado
 
 ## POO
 
-'''const a = 3
+```javascript
+function saudacao(nome) {
+  return "Olá, " + nome + "!";
+}
+
+console.log(saudacao("Lucas"));
+```
 poo => programação orientada a objetos
 ao inves do código ser feito de forma estrutural, tudo em um único código continuo, é feito usando o conceito de classe e oobjetos, dividindo o código com uma classe. É bom para dar mais organização ao código.
 
