@@ -31,15 +31,14 @@ resumo = java ≠ javascript              ts = js fortemente tipado
 
 ## POO
 
-```javascript
-function saudacao(nome) {
-  return "Olá, " + nome + "!";
-}
-
-console.log(saudacao("Lucas"));
-```
 poo => programação orientada a objetos
 ao inves do código ser feito de forma estrutural, tudo em um único código continuo, é feito usando o conceito de classe e oobjetos, dividindo o código com uma classe. É bom para dar mais organização ao código.
+código estruturado: 
+```javascript
+const carro = 12345
+const cor = vermelho
+console.log(" o carro é : ", cor)
+```
 
 ## classes e objetos
 classes: são delimitações de coisas com as mesmas caracterísitcas, não é a coisa, mas sim a linha de fala o que é aquele objeto, por exemplo se ouver a classe carros, a classse não vai ser um carro, mas sim o conjunto de ideias que falam o que é um carro. 
