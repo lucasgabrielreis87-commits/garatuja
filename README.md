@@ -37,7 +37,24 @@ código estruturado:
 ```javascript
 const carro = 12345
 const cor = vermelho
-console.log(" o carro é : ", cor)
+console.log(" o carro é : "+ cor)
+```
+código orientado a objetos: 
+```javascript
+class Carro {
+  constructor(cor, numero) {
+    this.cor = cor;
+    this.numero = numero;
+  }
+
+  falarCor() {
+    console.log("A cor do carro é " + this.cor);
+  }
+}
+
+// Exemplo de uso:
+const carro1 = new Carro("vermelho", 123);
+carro1.falarCor(); // A cor do carro é vermelho
 ```
 
 ## classes e objetos
