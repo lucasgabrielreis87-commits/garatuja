@@ -9,9 +9,9 @@ css *(cascading style sheet)* esse sim serve para fazer a parte  estética da p�
 javascript é responsável pela interação com o usuário, da o sopro da vida para o código. Pode remover, adicionar e editar elementos html e estilos css, guardar as informações em um banco de dados, fazer animações etc.
 
 ### resumo html css e js
-**html**: estrutura básica, corpo da página
-**css**: estética
-**javascript**: interatividade
+- **html**: estrutura básica, corpo da página
+- **css**: estética
+- **javascript**: interatividade
 
 ## java x javascript x typescript 
 
