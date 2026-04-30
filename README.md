@@ -8,7 +8,7 @@ css(cascading style sheet) esse sim serve para fazer a parte  estética da pági
 ## javascript
 javascript é responsável pela interação com o usuário, da o sopro da vida para o código. Pode remover, adicionar e editar elementos html e estilos css, guardar as informações em um banco de dados, fazer animações etc.
 
-## resumo html css e js
+####resumo html css e js
 html => estrutura básica, corpo da página
 css => estética
 javascript => interatividade
@@ -67,13 +67,13 @@ dentro de uma classe pode haver outras classes, que podem herdar os edlementos d
 
  ## perguntas sobre o texto
  
- Sempre que uso private eu sou obrigado a criar getters e setters?
- Qual a vantagem da versão com get e set em vez de métodos normais?
- Por que transformar atributos em private melhora o código?
- Isso é segurança real ou só organização do código?
- O texto diz que sem construtor pode dar problema — mas quando isso realmente acontece?
- Posso criar um objeto sem passar parâmetros?
- O construtor sempre precisa usar this?
+ 1. Sempre que uso private eu sou obrigado a criar getters e setters?
+ 2. Qual a vantagem da versão com get e set em vez de métodos normais?
+ 3. Por que transformar atributos em private melhora o código?
+ 4. Isso é segurança real ou só organização do código?
+ 5. O texto diz que sem construtor pode dar problema — mas quando isso realmente acontece?
+ 6. Posso criar um objeto sem passar parâmetros?
+ 7. O construtor sempre precisa usar this?
 
 
 
